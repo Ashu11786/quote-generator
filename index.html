@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="container">
+        <div class="quote-box">
+            <p id="quote-text">Loading...</p>
+            <p id="quote-author"></p>
+            <button id="new-quote-btn" onclick="newQuote()">New Quote</button>
+            <button id="copy-btn">Copy Quote</button>
+            <button id="share-btn">Share Quote</button>
+
+            <div class="categories">
+                <button class="category-btn" data-category="inspirational">Inspirational</button>
+                <button class="category-btn" data-category="love">Love</button>
+                <button class="category-btn" data-category="life">Life</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+     
+</body> 
+</html>
